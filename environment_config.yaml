@@ -1,0 +1,5 @@
+attributes:
+  metadata:
+    restrictions:
+      - condition: "settings:networking-sfc == null or settings:networking-sfc.metadata.enabled  == false"
+        message: "This plugin requires networking sfc plugin enabled"
