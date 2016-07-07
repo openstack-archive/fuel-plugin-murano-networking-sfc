@@ -1,0 +1,13 @@
+##############################################
+# Deployment groups
+# Deployment tasks
+- id: murano-networking-sfc-controller
+  type: puppet
+  version: 2.0.0
+  groups: [primary-controller,controller]
+  requires: [post_deployment_start]
+  required_for: [post_deployment_end]
+  parameters:
+    puppet_manifest: puppet/manifests/murano-networking-sfc-controller.pp
+    puppet_modules: puppet/modules:/etc/puppet/modules
+    timeout: 120
