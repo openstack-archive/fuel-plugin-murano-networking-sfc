@@ -2,4 +2,4 @@ attributes:
   metadata:
     restrictions:
       - condition: "settings:networking-sfc == null or settings:networking-sfc.metadata.enabled  == false or settings:additional_components.murano.value == false"
-        message: "This plugin requires enabled and installed networking sfc plugin and Murano component enabled"
+        message: "This plugin requires enabled and installed Networking SFC plugin and Murano component enabled"

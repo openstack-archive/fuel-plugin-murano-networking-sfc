@@ -1,10 +1,10 @@
-Murano networking SFC plugin for Fuel
+Murano Networking SFC plugin for Fuel
 =======================
 
-Murano networking SFC
+Murano Networking SFC
 --------------
 
-This plugin extends MOS with Murano networking SFC support.
+This plugin extends MOS with Murano Networking SFC support.
 
 Requirements
 ------------
@@ -19,10 +19,10 @@ Will not work otherwise.
 Installation Guide
 ==================
 
-Murano networking SFC plugin installation
+Murano Networking SFC plugin installation
 ---------------------------
 
-To install Murano networking SFC plugin, follow these steps:
+To install Murano Networking SFC plugin, follow these steps:
 
 1. Install all needed dependencies
 
@@ -50,11 +50,11 @@ To install Murano networking SFC plugin, follow these steps:
         ---|-----------------------|---------|-----------------|--------------------
         1  | murano-networking-sfc | 1.0.0   | 4.0.0           | ubuntu (mitaka-9.0)
 
-Murano networking SFC plugin configuration
+Murano Networking SFC plugin configuration
 ----------------------------
 
 1. Create an environment with Murano support.
-2. Install and enable networking-sfc plugin, available: https://github.com/openstack/fuel-plugin-networking-sfc. For Fuel 9.0 use 1.0 branch.
+2. Install and enable Networking SFC plugin, available: https://github.com/openstack/fuel-plugin-networking-sfc. For Fuel 9.0 use 1.0 branch.
 3. Enable the plugin on the Settings tab of the Fuel web UI.
 4. Deploy the environment.
 

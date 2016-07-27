@@ -1,17 +1,17 @@
 # Plugin name
 name: murano-networking-sfc
 # Human-readable name for your plugin
-title: Fuel plugin for Murano networking sfc support
+title: Fuel plugin for Murano Networking SFC support
 # Plugin version
 version: '1.0.0'
 # Description
-description: Fuel plugin which install murano package with sfc support
+description: Fuel plugin which install murano package with Networking SFC support
 # Required fuel version
 fuel_version: ['9.0']
 # Specify license of your plugin
 licenses: ['Apache License Version 2.0']
 # Specify author or company name
-authors: ['Maciej Relewicz <mrelewicz@mirantis.com>']
+authors: ['Maciej Relewicz <mrelewicz@mirantis.com>', 'Damian Szeluga <dszeluga@mirantis.com>', 'Bartosz Kupidura <bkupidura@mirantis.com>']
 # A link to the plugin's page
 homepage: 'https://github.com/openstack/fuel-plugin-murano-networking-sfc'
 # Specify a group which your plugin implements, possible options:
